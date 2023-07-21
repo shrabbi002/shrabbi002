@@ -1,4 +1,4 @@
-# 💫 About Me: Hey 👋,i'm Sakhawat Hossain Rabbi
+ Hey 👋,i'm Sakhawat Hossain Rabbi
 
 
 
