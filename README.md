@@ -13,33 +13,6 @@ Hey, I'm Sakhawat Hossain Rabbi
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=shrabbi002&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 
-##  snake game
-
-on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    name: Jobs to update datas
-    runs-on: ubuntu-latest
-    steps:
-      # Snake Animation
-      - uses: Sutil/snk@master
-        id: snake-gif
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-contribution-grid-snake2.svg
-          snake_color: 'blue'
-
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=shrabbi002&theme=radical&no-frame=false&no-bg=true&margin-w=4)
