@@ -15,7 +15,10 @@ Hey, I'm Sakhawat Hossain Rabbi
 
 ##
 ![]shrabbi002: ${{ github.repository_owner }}
-
+dist/github-snake.svg
+      dist/github-snake-dark.svg?palette=github-dark
+      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=shrabbi002&theme=radical&no-frame=false&no-bg=true&margin-w=4)
